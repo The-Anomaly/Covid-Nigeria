@@ -1,0 +1,190 @@
+.cn-container {
+    padding: 2rem 0 0;
+}
+.cn-ttl {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 0 2rem;
+}
+.cn-overview {
+    display: flex;
+    gap: 2rem;
+    justify-content: left;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+.cn-ov-item {
+    border-radius: 6px;
+    padding: 1rem 1.2rem;
+    min-width: 250px;
+    width: 300px;
+    background: #fff;
+    box-shadow: 0px 6px 10px rgb(33 30 67 / 20%);
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+.cn-icon {
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 45px;
+}
+.cn-ov-sub {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.cn-ov-txt {
+    font-weight: 700;
+    font-size: 18px;
+}
+.cn-ov-num {
+    font-size: 35px;
+    font-weight: 900;
+    margin-top: 1.5rem;
+    letter-spacing: 1px;
+}
+.cn-ov-samples {
+    color: #541bce;
+}
+.cn-ov-confirmed {
+    color: #8C3926;
+}
+.cn-ov-active {
+    color: #ff0000;
+}
+.cn-ov-discharged {
+    color: #6F7431;
+}
+.cn-ov-death {
+    color: #000;
+}
+.cn-ov-samples:hover {
+    border: 2px solid #541bce;
+}
+.cn-ov-confirmed:hover {
+    border: 2px solid #8C3926;
+}
+.cn-ov-active:hover {
+    border: 2px solid #ff0000;
+}
+.cn-ov-discharged:hover {
+    border: 2px solid #6F7431;
+}
+.cn-ov-death:hover {
+    border: 2px solid #000;
+}
+.cn-list {
+    padding: 2rem;
+    background: #f7f4f0;
+}
+.cn-list-select {
+    gap: 3rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-weight: 600;
+    align-items: center;
+}
+.cn-list-select > p {
+    margin: 0;
+}
+.cn-select {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    font-weight: 400;
+}
+.cn-select-out {
+    width: 60px;
+    height: 30px;
+    border: 1px solid #8C3926;
+    border-radius: 20px;
+    background: #8C3926;
+    padding: 2px 3px;
+}
+.cn-select-in {
+    cursor: pointer;
+    border: 1px solid #D9C0A3;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background: #D9C0A3;
+}
+.cn-float {
+    float: right;
+}
+.cn-list-state {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem 2rem;
+}
+.cn-list-info {
+    box-shadow: 5px 10px 16px rgb(33 30 67 / 25%);
+    padding: 2rem;
+    border-radius: 5px;
+    font-weight: 600;
+    width: 350px;
+}
+.cn-list-data {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+.cn-list-confirmed {
+    color: #D74126;
+}
+.cn-list-admission {
+    color: #D88F28;
+}
+.cn-list-discharged {
+    color: #025949;
+}
+.cn-list-death {
+    color: #BF0404;
+}
+.cn-state {
+    font-size: 22px;
+    font-weight: 700;
+}
+.cn-select-state {
+    height: 30px;
+    width: 200px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+    .cn-overview {
+        justify-content: center;
+    }
+    .cn-ttl {
+        font-size: 1.75rem;
+    }
+}
+@media screen and (max-width: 650px) {
+    .cn-list-select {
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .cn-ttl {
+        font-size: 1.5rem;
+        padding: 0 1rem;
+        margin-bottom: 0rem;
+    }
+}
